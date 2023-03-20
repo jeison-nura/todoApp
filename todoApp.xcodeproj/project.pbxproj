@@ -14,6 +14,8 @@
 		FC0223C429C7C1C20019B4A9 /* todoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0223C329C7C1C20019B4A9 /* todoAppTests.swift */; };
 		FC0223CE29C7C1C20019B4A9 /* todoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0223CD29C7C1C20019B4A9 /* todoAppUITests.swift */; };
 		FC0223D029C7C1C20019B4A9 /* todoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0223CF29C7C1C20019B4A9 /* todoAppUITestsLaunchTests.swift */; };
+		FC0223DD29C7C2830019B4A9 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0223DC29C7C2830019B4A9 /* NoteModel.swift */; };
+		FC0223DF29C7DCBF0019B4A9 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0223DE29C7DCBF0019B4A9 /* NotesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FC0223C929C7C1C20019B4A9 /* todoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0223CD29C7C1C20019B4A9 /* todoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITests.swift; sourceTree = "<group>"; };
 		FC0223CF29C7C1C20019B4A9 /* todoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC0223DC29C7C2830019B4A9 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		FC0223DE29C7DCBF0019B4A9 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		FC0223B129C7C1C10019B4A9 /* todoApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC0223DC29C7C2830019B4A9 /* NoteModel.swift */,
 				FC0223B229C7C1C10019B4A9 /* todoAppApp.swift */,
 				FC0223B429C7C1C10019B4A9 /* ContentView.swift */,
+				FC0223DE29C7DCBF0019B4A9 /* NotesViewModel.swift */,
 				FC0223B629C7C1C20019B4A9 /* Assets.xcassets */,
 				FC0223B829C7C1C20019B4A9 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0223DF29C7DCBF0019B4A9 /* NotesViewModel.swift in Sources */,
 				FC0223B529C7C1C10019B4A9 /* ContentView.swift in Sources */,
+				FC0223DD29C7C2830019B4A9 /* NoteModel.swift in Sources */,
 				FC0223B329C7C1C10019B4A9 /* todoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +461,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
